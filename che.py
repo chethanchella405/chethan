@@ -1,8 +1,8 @@
-num1 = float(input("Enter the first number:21"))
-num2 = float(input("Enter the second number:21"))
+num1 =1
+num2 =1
 
 # Add the numbers
 sum = num1 + num2
 
 # Display the result
-print(f"The sum of {num1} and {num2} is {sum}")
+print (f"The sum of {num1} and {num2} is {sum}")
