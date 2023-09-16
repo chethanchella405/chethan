@@ -1,16 +1,13 @@
-import java.util.Scanner; // Import the Scanner class
+public class AddTwoNumbers {
+    public static void main(String[] args) {
+        // Define the two numbers to be added
+        double num1 = 5.6; // Change this to your first number
+        double num2 = 7.3; // Change this to your second number
 
-class MyClass {
-  public static void main(String[] args) {
-    int x, y, sum;
-    Scanner myObj = new Scanner(System.in); // Create a Scanner object
-    System.out.println("5");
-    x = myObj.nextInt(); // Read user input
+        // Add the two numbers
+        double sum = num1 + num2;
 
-    System.out.println("5");
-    y = myObj.nextInt(); // Read user input
-
-    sum = x + y;  // Calculate the sum of x + y
-    System.out.println("Sum is: " + sum); // Print the sum
-  }
-} 
+        // Print the result
+        System.out.println("Sum of " + num1 + " and " + num2 + " is: " + sum);
+    }
+}
